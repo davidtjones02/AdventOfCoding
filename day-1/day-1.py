@@ -11,4 +11,3 @@ with open("numbers.txt", "r") as file:
             if int(numbers[i]) > int(numbers[i-1]):
                 sum += 1
     print(sum)
-    input()
