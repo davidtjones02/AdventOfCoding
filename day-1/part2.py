@@ -1,6 +1,4 @@
-with open(
-    "C:/Users/david/Documents/Coding/AdventOfCoding/day-1/numbers.txt", "r"
-) as file:
+with open("numbers.txt", "r") as file:
     numbers = file.readlines()
     sum = 607
     greaterThan = 0
